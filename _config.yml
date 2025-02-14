@@ -1,163 +1,42 @@
-theme: null
+title: Foroozan Arkian
+tagline: Research Associate in Atmospheric Sciences
+description: Research Associate | Air Quality & Methane Emissions
+canonical: https://farkian.github.io
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foroozan Arkian | Research Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            transition: background 0.3s, color 0.3s;
-        }
-        .container {
-            background: white;
-            width: 70%;
-            margin: 50px auto;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #2c3e50;
-            font-size: 32px;
-        }
-        h2 {
-            color: #2980b9;
-            font-size: 24px;
-            margin-top: 20px;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-            line-height: 1.6;
-        }
-        a {
-            color: white;
-            background-color: #2980b9;
-            padding: 10px 15px;
-            border-radius: 5px;
-            text-decoration: none;
-            display: inline-block;
-            margin: 5px;
-        }
-        a:hover {
-            background-color: #1f6694;
-        }
-        img {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-            margin-bottom: 10px;
-        }
-        .project-card {
-            background: #fff;
-            border-radius: 10px;
-            padding: 15px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            margin: 15px;
-            display: inline-block;
-            width: 45%;
-            transition: transform 0.3s ease-in-out;
-        }
-        .project-card:hover {
-            transform: scale(1.05);
-        }
-        .button-group {
-            margin-top: 15px;
-        }
-        .dark-mode {
-            background-color: #2c3e50;
-            color: white;
-        }
-        .dark-mode .container {
-            background: #34495e;
-            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
-        }
-        .dark-mode a {
-            background-color: #f1c40f;
-            color: black;
-        }
-        .dark-mode a:hover {
-            background-color: #d4ac0d;
-        }
-        .toggle-btn {
-            background: #555;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            cursor: pointer;
-            font-size: 16px;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-        .github-stats img {
-            width: 100%;
-            max-width: 600px;
-            margin-top: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
-        <img src="profile.jpg" alt="Foroozan Arkian">
-        <h1>Foroozan Arkian</h1>
-        <p><strong>Research Associate</strong> | Air Quality & Methane Emissions</p>
+owner:
+  name: Foroozan Arkian
+  avatar: profile.jpg
+  bio: "Research Associate | Air Quality & Methane Emissions"
+  email: foroozan1.arkian@famu.edu
+  location: "Florida, USA"
 
-        <h2>Download CV</h2>
-        <div class="button-group">
-            <a href="CV.pdf" download>Download My CV</a>
-        </div>
+tools:
+  standards: "HTML, CSS, Jekyll"
+  software: "git, Python, MATLAB"
 
-        <h2>Research & Publications</h2>
-        <div class="button-group">
-            <a href="https://scholar.google.com/citations?user=qS2KU_EAAAAJ&hl=en" target="_blank">Google Scholar</a>
-            <a href="https://www.linkedin.com/in/foroozan-arkian-00552585/" target="_blank">LinkedIn</a>
-        </div>
+links:
+  - title: Research
+    url: /research
+  - title: Publications
+    url: /publications
+  - title: CV
+    url: /CV.pdf
+    external: true
 
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>WRF-LES for Methane</h3>
-            <p>Large Eddy Simulation (LES) applied to methane emissions modeling.</p>
-            <a href="https://github.com/farkian/WRF-LES" target="_blank">View Project</a>
-        </div>
-        <div class="project-card">
-            <h3>GHGSat Data Analysis</h3>
-            <p>Using satellite imagery to analyze methane emissions.</p>
-            <a href="https://github.com/farkian/GHGSat-Analysis" target="_blank">View Project</a>
-        </div>
-        <div class="project-card">
-            <h3>Tracer Correlation Method</h3>
-            <p>Applying TCM to estimate methane sources using known tracers.</p>
-            <a href="https://github.com/farkian/Tracer-Correlation-Method" target="_blank">View Project</a>
-        </div>
-        <div class="project-card">
-            <h3>Inverse Modeling</h3>
-            <p>Using inverse modeling techniques to attribute methane emissions to sources.</p>
-            <a href="https://github.com/farkian/Inverse-Modeling" target="_blank">View Project</a>
-        </div>
+timezone: America/New_York
+future: true
+highlighter: rouge
+markdown: kramdown
 
-        <h2>GitHub Activity</h2>
-        <div class="github-stats">
-            <img src="https://github-readme-stats.vercel.app/api?username=farkian&show_icons=true&theme=blueberry" alt="GitHub Stats">
-        </div>
+kramdown:
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
 
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:foroozan1.arkian@famu.edu">foroozan1.arkian@famu.edu</a></p>
-    </div>
+sass:
+  style: :compressed
 
-    <script>
-        function toggleDarkMode() {
-            document.body.classList.toggle("dark-mode");
-        }
-    </script>
-</body>
-</html>
+permalink: /:categories/:title
 
+      
