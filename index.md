@@ -3,6 +3,8 @@ layout: default
 title: "Foroozan Arkian"
 ---
 
+[Home](/) | [About](/about) | [Research](/research) | [Publications](/publications) | [CV](CV.pdf)
+
 ![Profile Picture](profile.jpg)
 
 # Foroozan Arkian
