@@ -1,20 +1,9 @@
 title: "Foroozan Arkian"
 tagline: "Atmospheric Scientist | Greenhouse Gases & Remote Sensing"
 description: "I'm an atmospheric scientist interested in greenhouse gases, air pollution, and satellite remote sensing."
-canonical: "https://farkian.github.io"
-
-# Owner information
-owner:
-  name: "Foroozan Arkian"
-  avatar: "profile.jpg"
-  bio: "Atmospheric Scientist | Greenhouse Gases & Remote Sensing"
-  email: "foroozan1.arkian@famu.edu"
-  location: "Florida, USA"
-
-# Theme
 theme: minima
 
-# Navigation Menu
+# Navigation Menu (This will be used in custom layout)
 links:
   - title: "About"
     url: /about
